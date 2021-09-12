@@ -1,0 +1,17 @@
+* {
+    background-color: #ccc0c0;
+    color: #203ec4;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+#actions {
+    font-style: italic;
+}
+
+p {
+    color: rgb(68, 1, 131);
+}
+
+em {
+    color:rgb(68, 1, 131);
+}
