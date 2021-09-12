@@ -4,8 +4,45 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 
+h1 {
+    text-align: center;
+    border-bottom: 4px dotted blue;
+}
+
+h2{
+    text-decoration-line: underline;
+}
 #actions {
     font-style: italic;
+}
+
+#peter {
+    color: rgb(182, 48, 0);
+    
+}
+
+#dana {
+    color: rgb(128, 98, 0)
+}
+
+#mayor {
+    color: rgb(182, 48, 0);
+
+}
+
+#ray {
+  color: rgb(128, 98, 0)
+
+}
+
+#egon {
+    color: rgb(182, 48, 0);
+
+}
+
+#winston{
+    color: rgb(128, 98, 0)
+
 }
 
 p {
