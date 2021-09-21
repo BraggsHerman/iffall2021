@@ -3,6 +3,9 @@ html{
     color: whitesmoke;
     background-color: orange;
 }
+#label{
+    font-size: 12px;
+}
 #fw-bold{
 font-weight: bold;
 }
