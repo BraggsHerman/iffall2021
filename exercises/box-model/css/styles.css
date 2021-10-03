@@ -16,6 +16,7 @@
   }
 
   .overflow-example {
+      width: 50%;
       height: 300px;
       overflow: auto;
   }
