@@ -1,0 +1,112 @@
+html {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+#header{
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1633655331363-c34828bcfa76?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80);
+    background-position:50% 95%;
+    background-size: cover;
+    color: oldlace;
+    padding: 8%;
+}
+
+#header h1{
+    margin-bottom: 0;
+    font-size: 5em;
+}
+
+#header h2 {
+    font-size: 1.875em;
+    margin-top: 0;
+}
+
+#paragraph {
+    padding: 3em 16em 3em 16em;
+    background-color: #0F0106;
+    background-size: cover;
+    color: oldlace;
+}
+
+#paragraph h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 2.5em;
+}
+#paragraph p {
+    margin-top: 2.5em;
+    margin-right: 1em;
+    margin-bottom: -1em;
+    font-size: 18px;
+    line-height: 1.6rem;
+
+}
+
+#paragraph img {
+    float: right;
+    width: 400px;
+    height: 300px;
+    margin: 0 0 2.5em 2.5em;
+}
+
+#gallery-thing {
+    padding: 3em 8em 3em 6em;
+    color: oldlace;
+    background-color: #1f0d02;
+
+}
+#gallery-thing h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+}
+#grid li{
+    width: 100%;
+    display: block;
+}
+#grid p{
+    margin-left: 1em;
+}
+#gallery-thing img{
+    float: left;
+    width: 200px;
+    height: 150px;
+    
+}
+
+#bottom-text{
+    text-align: center;
+    color: oldlace;
+    background-color: #0F0106;
+    padding: 4em 0 4em 0;
+}
+
+#bottom-text h3{
+    margin-top: 0;
+    font-size: 2.5em;
+}
+
+#bottom-text p {
+    font-size: 1.5em;
+    margin: 0 9em;
+}
+
+#copyright{
+    text-align: left;
+    font-size: 1.25em;
+    background-color: #1f0d02;
+    color: oldlace;
+    margin: 0;
+}
+#copyright p{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 2em 0 3em 8em;
+}
