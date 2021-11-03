@@ -1,0 +1,311 @@
+.button_container{
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#btn_coke{
+    position: sticky;
+    left: 25%;
+    top: 25%;
+    text-decoration: none;
+
+    background-color: #F40009;
+    color: white;
+    font-family: 'Shrikhand', cursive;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+#btn_coke:hover{
+    background-color: white;
+    color:#F40009;
+}
+
+#btn_apple{
+    position: sticky;
+    font-size: 100px;
+    left: 25%;
+    top: 15%;
+    color: gray;
+}
+#btn_apple:hover{
+    font-size: 150px;
+    background: -webkit-linear-gradient(green,orange,darkorange,red,purple,blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#btn_ibm{
+    font-family: 'Slabo 27px', serif;
+    position: sticky;
+    left: 25%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+#btn_ibm:hover {
+    font-family: 'Alfa Slab One', cursive;
+    border-style: double;
+    border-radius: 1px;
+}
+
+#btn_nerf{
+    position: relative;
+    top:20%;
+}
+#btn_nerf img{
+   
+    width: 50%;
+    height: 50%;
+    background-color: coral;
+}
+
+#btn_nerf img:hover{
+    background-color: green;
+}
+
+#btn_harley{
+    position: relative;
+    font-size: 100px;
+    left: 0%;
+    top: 30%;
+    color: orangered;
+}
+
+
+#btn_harley:hover{
+    color: rgb(134, 38, 3);
+}
+
+
+#btn_mk{
+    position: relative;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 50px;
+    border-radius: 50px;
+    background-color: black;
+    color: oldlace;
+    text-decoration: none;
+    top: 35%;
+}
+
+#btn_mk:hover{
+    color: black;
+    background-color: oldlace;
+}
+
+#btn_ideo{
+    position: relative;
+    font-family: 'Zen Antique Soft', serif;
+    text-decoration: none;
+    font-size: 50px;
+    top: 30%;
+    color: white;
+    background-color: black;
+    padding: 20%;
+}
+#btn_ideo:hover{
+    border-radius: 30px;
+}
+
+#btn_sar{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+    top: 30%;
+    color: rgb(4, 4, 95);
+}
+
+#btn_sar:hover{
+    color: oldlace;
+    background-image: url(https://media.giphy.com/media/JXHhI4o9NCf8k/giphy.gif);
+}
+
+#btn_craigslist{
+    position: relative;
+    font-family: 'Noto Serif', serif;
+    font-size: 50px;
+    text-decoration: none;
+    top: 30%;
+    color: brown;
+}
+#btn_craigslist:hover{
+    font-family: 'Indie Flower', cursive;
+}
+
+
+#btn_lyft{
+    position: relative;
+    top: 30%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+    border: 5px solid pink;
+    color: black;
+    padding: 3%;
+}
+#btn_lyft:hover{
+    background-color: pink;
+}
+
+#btn_sam{
+    font-family: 'Anton', sans-serif;
+    position: relative;
+    top: 30%;
+    font-size: 50px;
+    text-decoration: none;
+    border-radius: 50px;
+    color: blue;
+    padding: 5%;
+    border: 3px dotted blue;
+}
+
+#btn_sam:hover{
+    color: white;
+    background-color: blue;
+    border: 3px solid blue;
+}
+
+#btn_vel{
+    position: relative;
+    top: 30%;
+    font-size: 50px;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    -webkit-text-stroke: 2px black;
+}
+
+#btn_vel:hover{
+    color: black;
+}
+
+#btn_tesla{
+    position: relative;
+    top: 30%;
+    font-size: 50px;
+    text-decoration: none;
+    color: red;
+    font-family: 'Open Sans', sans-serif;
+}
+#btn_tesla:hover{
+    color: rgba(134, 38, 3,0.0);
+    background-image: url(https://media.giphy.com/media/7WtudzD9XpxXG/giphy.gif);
+    padding: 25%;
+}
+
+#btn_clr{
+    position: relative;
+    top: 30%;
+    font-size: 50px;
+    text-decoration: none;
+    background: -webkit-linear-gradient(green,orange,darkorange,red,purple,blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+#btn_clr:hover{
+    border: 2px solid blue;
+    background: -webkit-linear-gradient(green,orange,darkorange,red,purple,blue);
+}
+
+#btn_nike{
+    position: relative;
+    top: 30%;
+    font-size: 50px;
+    right: 35%;
+    color: white;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    padding: 15%;
+    border-radius: 50%;
+    margin-left: 50%;
+    background-color: rgb(255, 136, 0);
+}
+
+#btn_nike:hover{
+    color: rgba(255, 255, 255,50%);
+}
+#btn_dime{
+    position: relative;
+    top: 30%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+#btn_dime:hover{
+    border-bottom:  5px dotted green;
+}
+
+#btn_cn{
+    position: relative;
+    top: 30%;
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+#btn_cn:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#btn_electra{
+    position: relative;
+    top: 30%;
+    font-size: 50px;
+    text-decoration: none;
+    -webkit-text-stroke: 2px black;
+    font-family: 'Open Sans', sans-serif;
+    color: darkgray;
+
+}
+
+#btn_electra:hover{
+    text-transform: uppercase;
+}
+#btn_npr{
+    position: relative;
+    top: 30%;
+    font-size: 50px;
+    text-decoration: none;
+    color: orange;
+    text-transform: lowercase;
+    padding: 10%;
+}
+#btn_npr:hover{
+    color: oldlace;
+    background-image: url(https://media.giphy.com/media/WTpn1lV1FNcog06w0d/giphy-downsized-large.gif);
+}
+
+#btn_foreflight{
+    position: relative;
+    top: 30%;
+    font-size: 50px;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    color: gray;
+}
+
+#btn_foreflight:hover{
+    -webkit-text-stroke: 3px rgb(103, 103, 255);
+
+}
