@@ -1,0 +1,17 @@
+section{
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.hoaxes ul{
+    list-style: none;
+}
+@media (max-width: 560px){
+
+    .sources{
+     display: none;
+    }
+    section{
+     margin-left: 50px;
+     margin-right: 50px;
+    }
+}
