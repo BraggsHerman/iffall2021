@@ -1,0 +1,74 @@
+section{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+ section ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+li{
+    width: 300px;
+    display: block;
+    margin-left: 20px;
+}
+
+img{
+    max-width: 100%;
+}
+.sources{
+    margin: 0;
+    text-align: center;
+    background-color: rgb(85, 58, 22);
+    display: none;
+
+}
+
+
+ nav a:link{
+    color: white;
+}
+ a:hover{
+    font-weight: bolder;
+}
+h1:hover{
+    font-weight: lighter;
+}
+
+ a:visited{
+    color: oldlace;
+}
+nav ul{
+    list-style: none;
+
+}
+.sources h2{
+    font-size: 14px;
+}
+.sources ol{
+    font-size: 10px;
+    list-style: none;
+}
+
+.raised-by-monkeys{
+}
+
+@media (max-width: 560px){
+
+
+    .sources{
+     display: none;
+    }
+    section{
+     margin-left: 50px;
+     margin-right: 50px;
+    } 
+}

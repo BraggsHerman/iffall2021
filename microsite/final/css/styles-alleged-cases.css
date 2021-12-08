@@ -1,0 +1,28 @@
+section{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.sources{
+    margin: 0;
+    text-align: center;
+    background-color: rgb(85, 58, 22);
+
+}
+.sources h2{
+    font-size: 14px;
+}
+.sources ol{
+    font-size: 10px;
+    list-style: none;
+}
+@media (max-width: 560px){
+
+
+   .sources{
+    display: none;
+   }
+   section{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+}

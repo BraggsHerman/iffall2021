@@ -1,0 +1,83 @@
+
+html{
+    background-color: #CB997E;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900px;
+    font-size: 72px;
+}
+a{
+    text-decoration: none;
+
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+
+ol{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+section{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+@media (max-width: 560px){
+
+    h2{font-size: 36px}
+    p{font-size: 18px;}
+    .sources{
+     display: none;
+    }
+    section{
+     margin-left: 50px;
+     margin-right: 50px;
+ }}
+
+header{
+    display: flex;
+} 
+nav{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    position: sticky;
+    left: 80%;
+}
+
+ a:link{
+    color: white;
+}
+ a:hover{
+    font-weight: bolder;
+}
+h1:hover{
+    font-weight: lighter;
+}
+
+ a:visited{
+    color: oldlace;
+}
+nav ul{
+    list-style: none;
+
+}

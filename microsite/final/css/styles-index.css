@@ -1,0 +1,88 @@
+.intro{
+    display: block;
+    color: oldlace;
+    margin: 0 auto;
+}
+.intro p{
+    padding: 0 0 0 0;
+}
+.intro h2{
+    margin-bottom: 36px;
+}
+.intro figure{
+    float: right;
+    width: 250px;
+    height: 376px;
+    margin-left: 10px;
+}
+.intro figcaption{
+    text-align: center;
+    padding-left: 20px;
+}
+.intro img{
+    overflow: auto;
+    float:right;
+    width: 90%;
+    height:90%;
+    margin: 0;
+
+}
+.sources{
+    margin: 0;
+    text-align: center;
+    background-color: rgb(85, 58, 22);
+
+}
+.sources h2{
+    font-size: 14px;
+}
+.sources ol{
+    font-size: 10px;
+    list-style: none;
+}
+
+@media (min-width: 1100px){
+    .intro{
+        margin: 200px;
+    }
+    .description{
+        margin: 200px;
+    }
+    .history{
+        margin: 0 200px 50px 200px;
+    }
+
+}
+
+@media (max-width: 560px){
+    .intro{
+        margin-left: 100px;        
+    }
+   .intro figure{
+    float: left;
+    padding-left: 0;
+   }
+   .intro p{
+    /* float: inline-end; */
+    /* text-align: center; */
+       /* margin-top: 444px; */
+       margin-left: 50px;
+   }
+   .description{
+       padding-left: 100px;
+   }
+   .description p{
+       margin-left: 50px;
+   }
+   .history{
+       margin-left: 100px;
+   }
+
+   .history p{
+       margin-left: 50px;
+   }
+
+   .sources{
+    display: none;
+}
+}
